@@ -19,6 +19,7 @@ public class UsuarioModel {
     private String nombre;
     private String email;
     private String prioridad;
+    private float estatura;
     public long getId() {
         return id;
     }
@@ -42,6 +43,12 @@ public class UsuarioModel {
     }
     public void setPrioridad(String prioridad) {
         this.prioridad = prioridad;
+    }
+    public float getEstatura() {
+        return estatura;
+    }
+    public void setEstatura(float estatura) {
+        this.estatura = estatura;
     }
 
     
