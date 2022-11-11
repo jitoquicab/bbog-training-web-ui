@@ -19,6 +19,7 @@ public class UsuarioModel {
     private String nombre;
     private String email;
     private String prioridad;
+    private int edad;
     private String genero;
     public long getId() {
         return id;
